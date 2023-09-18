@@ -183,7 +183,7 @@ defmodule Ink do
        when is_binary(message) do
     %{
       name: name(),
-      pid: System.get_pid() |> String.to_integer(),
+      pid: System.pid() |> String.to_integer(),
       msg: message,
       time: formatted_timestamp(timestamp),
       level: level(level, config.status_mapping),
