@@ -1,7 +1,7 @@
 defmodule Ink.Mixfile do
   use Mix.Project
 
-  @source_url "https://github.com/ivx/ink"
+  @source_url "https://github.com/doofinder/ink"
   @version "1.2.0"
 
   def project do
@@ -32,11 +32,10 @@ defmodule Ink.Mixfile do
   defp package do
     [
       name: :ink,
+      organization: "doofinder",
       description:
         "A backend for the Elixir Logger that logs JSON and can filter sensitive data.",
       files: ["lib", "mix.exs", "README*"],
-      maintainers: ["Mario Mainz"],
-      licenses: ["MIT"],
       links: %{"GitHub" => @source_url}
     ]
   end
