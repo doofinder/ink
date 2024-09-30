@@ -269,7 +269,7 @@ defmodule Ink do
       :debug -> 7
       :info -> 6
       :warn -> 4
-      :warn -> 4
+      :warning -> 4
       :error -> 3
     end
   end
