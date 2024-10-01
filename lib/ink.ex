@@ -84,6 +84,7 @@ defmodule Ink do
 
       config :logger, Ink,
         exclude_metadata: [:hostname]
+
   """
 
   @behaviour :gen_event
