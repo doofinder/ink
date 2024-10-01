@@ -258,6 +258,7 @@ defmodule Ink do
       :debug -> 20
       :info -> 30
       :warn -> 40
+      :warning -> 40
       :error -> 50
     end
   end
@@ -268,6 +269,7 @@ defmodule Ink do
       :debug -> 7
       :info -> 6
       :warn -> 4
+      :warning -> 4
       :error -> 3
     end
   end
